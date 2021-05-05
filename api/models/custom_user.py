@@ -8,12 +8,21 @@ from api.models.role import Role
 
 class CustomUser(AbstractUser):
     email = models.EmailField(
-        verbose_name='Электронная почта', unique=True)
+        verbose_name='Электронная почта',
+        unique=True,
+    )
     bio = models.TextField(
-        verbose_name='О себе', max_length=512, null=True)
+        verbose_name='О себе',
+        max_length=512,
+        null=True,
+        blank=True,
+    )
     role = models.CharField(
-        verbose_name='Роль', max_length=10,
-        choices=Role.choices, default=Role.USER)
+        verbose_name='Роль',
+        max_length=10,
+        choices=Role.choices,
+        default=Role.USER,
+    )
 
     objects = CustomUserManager()
 

@@ -12,7 +12,7 @@ def year():
 
 
 class Title(models.Model):
-    name = models.CharField(max_length=50, verbose_name='Название')
+    name = models.CharField(max_length=120, verbose_name='Название')
     year = models.PositiveIntegerField(
         validators=[
             MinValueValidator(1730),
