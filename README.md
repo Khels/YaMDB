@@ -2,14 +2,14 @@
 ### Описание
 Проект YaMDb собирает отзывы пользователей на произведения. Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
 ### Технологии
-Python 3.8.5
-Django 3.0.5
-Django Rest Framework 3.11.0
-gunicorn 20.0.4
-Docker 20.10.6
-docker-compose 1.25.0
-Nginx 1.19.3
-Postgres 12.4
+- Python 3.8.5
+- Django 3.0.5
+- Django Rest Framework 3.11.0
+- gunicorn 20.0.4
+- Docker 20.10.6
+- docker-compose 1.25.0
+- Nginx 1.19.3
+- Postgres 12.4
 ### Начало работы
 
 Пособие по установке Docker: https://docs.docker.com/engine/install/
