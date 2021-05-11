@@ -10,6 +10,8 @@
 - docker-compose 1.25.0
 - Nginx 1.19.3
 - Postgres 12.4
+### Ссылка на сайт
+Проект развёрнут на удалённом сервере и доступен по адресу: http://yamdb.tk
 ### Начало работы
 
 Пособие по установке Docker: https://docs.docker.com/engine/install/
